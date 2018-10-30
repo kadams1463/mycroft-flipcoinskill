@@ -16,7 +16,7 @@ LOGGER = getLogger(__name__)
 class FlipCoinSkill(MycroftSkill):
 
     def __init__(self):
-        super(MyFlipCoinSkill, self).__init__(name="FlipCoinSkill")
+        super(FlipCoinSkill, self).__init__(name="FlipCoinSkill")
 
     # Create flip_intent using the flip.voc file.
     def initialize(self):
